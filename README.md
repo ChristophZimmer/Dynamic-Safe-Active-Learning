@@ -27,9 +27,9 @@ The code is not stand alone. It requires
   `mcmc2.m`.
 
 Once, the Gaussian Process module is linked to the code in the functions
-`health_constr`, `learn_models`, and `obj_func2`, you can reproduce the
-results by running the example's `comparison.m`. Results will be
-generated in a directory named "output".
+`health_constr`, `learn_models`, and `obj_func2`, as well as the MCMC sampler, 
+you can reproduce the results by running the file `comparison.m` in the 
+example directory. Results will be generated in a directory named "output".
 
 ## License
 
